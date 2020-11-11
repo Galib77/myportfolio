@@ -13,6 +13,7 @@ import Title from './components/title/Title'
 // pages
 import About from './pages/about/About'
 import Skills from "./pages/skills/Skills";
+import Experience from './pages/experience/Experience'
 
 const App = () => {
   return (
@@ -41,6 +42,15 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+      <div>
+      <Container className="container-box rounded">
+          <Slide duration={500}>
+            <hr />
+
+            <Experience />
+          </Slide>
+        </Container>
+      </div>
     </div>
   );
 }
