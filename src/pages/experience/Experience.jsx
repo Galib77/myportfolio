@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Jumbotron,Card } from 'react-bootstrap'
+import { Container, Jumbotron, Card } from 'react-bootstrap'
 import L_ACCENTURE from "../../assets/img/experience/netcom-business-solution-logo.png";
 import Tilt from "react-tilt";
 
