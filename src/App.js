@@ -12,6 +12,7 @@ import Title from './components/title/Title'
 
 // pages
 import About from './pages/about/About'
+import Skills from "./pages/skills/Skills";
 
 const App = () => {
   return (
@@ -34,6 +35,12 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
     </div>
   );
 }
