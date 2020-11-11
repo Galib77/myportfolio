@@ -7,7 +7,7 @@ import './header.css'
 const Header = () => {
     return (
         <div>
-            <Navbar fixed="top" collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
+            <Navbar collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
             <Navbar.Brand href="#home">
                 <img className="logo" src={logo} alt="My Portfolio Logo" />
             </Navbar.Brand>
@@ -18,7 +18,7 @@ const Header = () => {
                 <Nav.Link href="#about">About Me</Nav.Link>
                 <Nav.Link href="#skills">Skills</Nav.Link>
                 <Nav.Link href="#experience">Experience</Nav.Link>
-                <Nav.Link href="#project">Project</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

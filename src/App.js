@@ -9,6 +9,7 @@ import { Parallax } from "react-parallax";
 import Header from './components/navbar/Header'
 import Banner from './components/banner/Banner'
 import Title from './components/title/Title'
+import ProjectTimeline from './components/project-timeline/Project-Timeline'
 
 // pages
 import About from './pages/about/About'
@@ -29,9 +30,9 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              <Slide duration={500}>
                 <About />
-              </Fade>
+              </Slide>
             </Container>
           </div>
         </Parallax>
@@ -51,6 +52,12 @@ const App = () => {
           </Slide>
         </Container>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <ProjectTimeline />
+        </Slide>
+      </Container>
     </div>
   );
 }
